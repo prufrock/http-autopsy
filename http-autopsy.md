@@ -1,22 +1,37 @@
+title: HTTP Autopsy
+author:
+  name: David Kanenwisher
+  twitter: davidkanen
+  url: http://prufrock.ghost.io/
+output: http-autopsy.html
+controls: true
+--
 # HTTP Autopsy
-## Let's disect how HTTP clients talk to servers.
+## Under the shark
+--
+
+### Tools
+
+* Wireshark
+* tcpdump
+* ngrep
 
 --
 
-# TCP and HTTP
+### TCP and HTTP
 
 * TCP carries HTTP
 
 --
 
-# Browsers
+### Browsers
 
 * Smaller set of verbs and error codes.
 * Utilize caching features heavily.
 
 --
 
-# Browser Samples
+### Browser Samples
 
 * Get
 * Form Post
@@ -24,13 +39,13 @@
 
 --
 
-# APIs
+### APIs
 
 * Often use all of the main HTTP verbs.
 * Status codes are extremely important.
 
 --
-# API Samples
+### API Samples
 
 * GET
 * Post
@@ -39,7 +54,7 @@
 
 --
 
-# RFCs
+### RFCs
 
 * RFC 2616 (obsolete)
 * RFC 7230
