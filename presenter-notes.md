@@ -45,4 +45,13 @@ ngrep
  * Content-Type
  * Body
  
+ * Post Request
+ 
+ * Post Response
+ * GZIP vs not gzipped
+ 
+ * Post Image Request
+ * enctype="multipart/form-data"
+
+ 
  
