@@ -51,11 +51,14 @@ ngrep
  * Body
 
 --
+
 #### Post Request
- * request body 
+ * request body
+
 --
  
 #### Post Response
+
  * GZIP vs not gzipped
  * Post Image Request
  * enctype="multipart/form-data"
