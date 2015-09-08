@@ -21,27 +21,27 @@ ngrep
  * TCP: Transport Later
  * HTTP: Application layer
  
- --
- 
- ### Browsers
+--
+
+### Browsers
  * Use only GET and POST
  * e-tags
  * if-modified-since
  * cache-control
  
- ---
+--
  
  ### Browser Samples
  
----
+--
 
- #### Get Request
+#### Get Request
  * Point out the TCP packet surrounding it
  * Hostname
  * Accepts
  * Accepts-encoding
 
----
+--
  
 #### Get Response
  * cache headers?
@@ -50,12 +50,10 @@ ngrep
  * Content-Encoding
  * Body
 
----
-
-
+--
 #### Post Request
  * request body 
----
+--
  
 #### Post Response
  * GZIP vs not gzipped
