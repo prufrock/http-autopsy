@@ -33,23 +33,32 @@ ngrep
  
  ### Browser Samples
  
- * Get Request
+---
+
+ #### Get Request
  * Point out the TCP packet surrounding it
  * Hostname
  * Accepts
  * Accepts-encoding
+
+---
  
- * Get Response
+#### Get Response
  * cache headers?
  * Content
  * Content-Type
+ * Content-Encoding
  * Body
+
+---
+
+
+#### Post Request
+ * request body 
+---
  
- * Post Request
- 
- * Post Response
+#### Post Response
  * GZIP vs not gzipped
- 
  * Post Image Request
  * enctype="multipart/form-data"
 
